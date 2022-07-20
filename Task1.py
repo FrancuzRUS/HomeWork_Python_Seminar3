@@ -15,11 +15,11 @@ for i in range(10):                       # создаем 10 случайных
 print(numbers)                            # показываем список
 
 
-def SumNumbers(List):                     # создаем функция суммирования
-    Summa = 0                             # переменная суммы
+def sumnumbers(List):                     # создаем функция суммирования
+    sum = 0                               # переменная суммы
     for i in range(0, len(List)):         # указываем диапозон выполнения цикла
         if i % 2 != 0:                    # условие цикла (нечетная позиция в списке )
-            Summa = Summa+List[i]         # складываем подходящие числа
-    return Summa                          # возвращаем результат функции
+            sum = sum+List[i]             # складываем подходящие числа
+    return sum                            # возвращаем результат функции
 
-print(SumNumbers(numbers))                # выводим результат 
+print(sumnumbers(numbers))                # выводим результат 
