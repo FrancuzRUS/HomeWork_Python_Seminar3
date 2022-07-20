@@ -9,7 +9,7 @@
 
 
 from random import randint                # подключаю генерацию рандомных чисел
-numbers = []                              # объявляем списко
+numbers = []                              # объявляем список
 for i in range(10):                       # создаем 10 случайных чисел
     numbers.append(randint(0, 10))        # в диапозоне от 0 до 10 
 print(numbers)                            # показываем список
